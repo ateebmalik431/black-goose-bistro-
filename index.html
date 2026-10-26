@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Goose Bistro</title>
+
+    <style>
+        body {
+            background-color: #f7f3e8;
+            color: #433f35;
+            font-family: Georgia, "Times New Roman", serif;
+            margin: 0;
+            padding: 35px 15px;
+        }
+
+        .container {
+            max-width: 620px;
+            margin: auto;
+        }
+
+        .logo {
+            display: block;
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 18px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: normal;
+            letter-spacing: 3px;
+            margin: 0 0 18px;
+            color: #292820;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #8b9b91;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #b85c24;
+            font-size: 22px;
+            font-weight: normal;
+            margin-top: 27px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            background-color: #fbf8f0;
+            padding: 12px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-top: 0;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+                letter-spacing: 2px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Goose Logo -->
+        <svg class="logo" viewBox="0 0 100 100"
+             xmlns="http://www.w3.org/2000/svg">
+
+            <circle cx="50" cy="50" r="47"
+                    fill="#e9a323" stroke="#383328"
+                    stroke-width="2"/>
+
+            <!-- Sun rays -->
+            <g stroke="#b87518" stroke-width="1.5">
+                <path d="M50 7 V17 M50 83 V93
+                         M7 50 H17 M83 50 H93
+                         M19 19 L27 27 M73 73 L81 81
+                         M19 81 L27 73 M73 27 L81 19
+                         M34 7 L38 17 M62 83 L66 93
+                         M7 34 L17 38 M83 62 L93 66
+                         M34 93 L38 83 M62 17 L66 7"/>
+            </g>
+
+            <!-- Goose silhouette -->
+            <path fill="#171713" d="
+                M64 12
+                C59 12 56 16 58 20
+                C59 22 61 24 61 27
+                C61 33 59 39 56 44
+                C53 49 49 53 43 56
+                C37 59 30 61 27 66
+                C24 71 28 76 35 78
+                C44 81 56 78 64 73
+                C70 69 73 64 71 60
+                C70 57 67 55 65 52
+                C63 49 64 44 66 39
+                C68 33 68 28 66 24
+                C70 24 73 22 75 20
+                L83 20
+                L75 17
+                C73 13 69 11 64 12
+                Z"/>
+
+            <!-- Wing -->
+            <path fill="#e9a323" d="
+                M37 65
+                C45 60 54 60 63 64
+                C57 71 47 74 38 71
+                C35 70 34 67 37 65
+                Z"/>
+
+            <!-- Legs -->
+            <path d="M46 76 L45 86 L38 88
+                     M59 76 L61 86 L68 88"
+                  fill="none" stroke="#171713"
+                  stroke-width="3" stroke-linecap="round"/>
+
+        </svg>
+
+        <h1>BLACK GOOSE BISTRO</h1>
+
+        <hr>
+
+        <h2>The Restaurant</h2>
+
+        <p>
+            The Black Goose Bistro offers casual lunch and dinner fare
+            in a hip atmosphere. The menu changes regularly to highlight
+            the freshest ingredients.
+        </p>
+
+        <h2>Catering</h2>
+
+        <p>
+            You have fun... we'll handle the cooking. Black Goose Catering
+            can handle events from snacks for bridge club to elegant
+            corporate fundraisers.
+        </p>
+
+        <h2>Location and Hours</h2>
+
+        <p>
+            Seekonk, Massachusetts;<br>
+            Monday through Thursday 11am to 9pm,<br>
+            Friday and Saturday, 11am to midnight
+        </p>
+
+    </div>
+
+</body>
+</html>
